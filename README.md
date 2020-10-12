@@ -1,5 +1,7 @@
 # LIMIT-BERT
 
+[LIMIT-BERT: Linguistic Informed Multi-task BERT](https://arxiv.org/abs/1910.14296)) 
+
 ## Contents
 1. [Requirements](#Requirements)
 2. [Training](#Training)
@@ -28,4 +30,15 @@ sh run_limitbert.sh
 To test after setting model path:
 ```
 sh test_bert.sh
+```
+
+## Citation
+
+```
+@article{zhou2019limit,
+  title={{LIMIT-BERT}: Linguistic informed multi-task {BERT}},
+  author={Zhou, Junru and Zhang, Zhuosheng and Zhao, Hai},
+  journal={arXiv preprint arXiv:1910.14296},
+  year={2019}
+}
 ```
